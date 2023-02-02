@@ -21,9 +21,9 @@ dot:
 	# Prologue
 	# check whether the length of the array is less than 1
 	li t0,1
-	blt a2,t0,Error36
-	blt a3,t0,Error37
-	blt a4,t0,Error37
+	blt a2,t0,error36
+	blt a3,t0,error37
+	blt a4,t0,error37
 	li t0,0 # i = 0
 	li t1,0 # j = 0
 	li t3,0 # result = 0
