@@ -47,9 +47,9 @@ loop_end:
 	# Epilogue
 	add a0,x0,t3
 	ret
-Error36:
+error36:
 	li a0,36
 	jal exit
-Error37:
+error37:
 	li a0,37
 	jal exit
